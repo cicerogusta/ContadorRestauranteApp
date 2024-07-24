@@ -14,7 +14,7 @@ export default function App() {
   }
 
   function removePessoas() {
-    if(contadorPessoas == 10){
+    if(contadorPessoas > 0){
       setContadorPessoas(contadorPessoas -1)
       return
     }
